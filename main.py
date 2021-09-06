@@ -1,12 +1,12 @@
 from time import sleep
 from json import dumps
 from kafka import KafkaProducer
-import configparser
-
-cfg = configparser.ConfigParser()
-cfg.read('./config.ini')
-bs = cfg.get('default','bootstrap_servers').split(',')
-dest_topic = cfg.get('default','topic')
+#import configparser
+#
+# cfg = configparser.ConfigParser()
+# cfg.read('./config.ini')
+# bs = cfg.get('default','bootstrap_servers').split(',')
+# dest_topic = cfg.get('default','topic')
 
 
 
